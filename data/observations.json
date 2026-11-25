@@ -1,0 +1,415 @@
+{
+  "messages": [
+    {
+      "id": "M1",
+      "version": 1,
+      "zones": [
+        "A",
+        "B"
+      ],
+      "from": "2026-11-01T10:00:00+08:00",
+      "to": "2026-11-01T12:00:00+08:00",
+      "action": "到达演练集合点",
+      "status": "有效"
+    },
+    {
+      "id": "M1",
+      "version": 2,
+      "zones": [
+        "A"
+      ],
+      "from": "2026-11-01T10:30:00+08:00",
+      "to": "2026-11-01T12:00:00+08:00",
+      "action": "改去演练备用点",
+      "status": "有效"
+    }
+  ],
+  "population": [
+    {
+      "id": "P1",
+      "household": "H1",
+      "zone": "A",
+      "language": "中文",
+      "needs_assistance": false,
+      "valid_from": "2026-10-01"
+    },
+    {
+      "id": "P2",
+      "household": "H1",
+      "zone": "A",
+      "language": "中文",
+      "needs_assistance": false,
+      "valid_from": "2026-10-01"
+    },
+    {
+      "id": "P3",
+      "household": "H2",
+      "zone": "A",
+      "language": "英语",
+      "needs_assistance": false,
+      "valid_from": "2026-10-01"
+    },
+    {
+      "id": "P4",
+      "household": "H2",
+      "zone": "A",
+      "language": "中文",
+      "needs_assistance": false,
+      "valid_from": "2026-10-01"
+    },
+    {
+      "id": "P5",
+      "household": "H3",
+      "zone": "A",
+      "language": "中文",
+      "needs_assistance": true,
+      "valid_from": "2026-10-01"
+    },
+    {
+      "id": "P6",
+      "household": "H3",
+      "zone": "A",
+      "language": "英语",
+      "needs_assistance": false,
+      "valid_from": "2026-10-01"
+    },
+    {
+      "id": "P7",
+      "household": "H4",
+      "zone": "A",
+      "language": "中文",
+      "needs_assistance": false,
+      "valid_from": "2026-10-01"
+    },
+    {
+      "id": "P8",
+      "household": "H4",
+      "zone": "A",
+      "language": "中文",
+      "needs_assistance": false,
+      "valid_from": "2026-10-01"
+    },
+    {
+      "id": "P9",
+      "household": "H5",
+      "zone": "B",
+      "language": "英语",
+      "needs_assistance": false,
+      "valid_from": "2026-10-01"
+    },
+    {
+      "id": "P10",
+      "household": "H5",
+      "zone": "B",
+      "language": "中文",
+      "needs_assistance": true,
+      "valid_from": "2026-10-01"
+    },
+    {
+      "id": "P11",
+      "household": "H6",
+      "zone": "B",
+      "language": "中文",
+      "needs_assistance": false,
+      "valid_from": "2026-10-01"
+    },
+    {
+      "id": "P12",
+      "household": "H6",
+      "zone": "B",
+      "language": "英语",
+      "needs_assistance": false,
+      "valid_from": "2026-10-01"
+    },
+    {
+      "id": "P13",
+      "household": "H7",
+      "zone": "B",
+      "language": "中文",
+      "needs_assistance": false,
+      "valid_from": "2026-10-01"
+    },
+    {
+      "id": "P14",
+      "household": "H7",
+      "zone": "B",
+      "language": "中文",
+      "needs_assistance": false,
+      "valid_from": "2026-10-01"
+    },
+    {
+      "id": "P15",
+      "household": "H8",
+      "zone": "B",
+      "language": "英语",
+      "needs_assistance": true,
+      "valid_from": "2026-10-01"
+    },
+    {
+      "id": "P16",
+      "household": "H8",
+      "zone": "B",
+      "language": "中文",
+      "needs_assistance": false,
+      "valid_from": "2026-10-01"
+    }
+  ],
+  "receipts": [
+    {
+      "id": "R1",
+      "person_id": "P1",
+      "message_id": "M1",
+      "version": 1,
+      "channel": "短信",
+      "stage": "本人确认",
+      "occurred": "2026-11-01T10:20:00+08:00",
+      "received": "2026-11-01T10:50:00+08:00"
+    },
+    {
+      "id": "R2",
+      "person_id": "P2",
+      "message_id": "M1",
+      "version": 1,
+      "channel": "广播",
+      "stage": "本人确认",
+      "occurred": "2026-11-01T10:20:00+08:00",
+      "received": "2026-11-01T10:50:00+08:00"
+    },
+    {
+      "id": "R3",
+      "person_id": "P3",
+      "message_id": "M1",
+      "version": 1,
+      "channel": "短信",
+      "stage": "设备接收",
+      "occurred": "2026-11-01T10:20:00+08:00",
+      "received": "2026-11-01T10:50:00+08:00"
+    },
+    {
+      "id": "R5",
+      "person_id": "P5",
+      "message_id": "M1",
+      "version": 1,
+      "channel": "短信",
+      "stage": "本人确认",
+      "occurred": "2026-11-01T10:20:00+08:00",
+      "received": "2026-11-01T10:50:00+08:00"
+    },
+    {
+      "id": "R6",
+      "person_id": "P6",
+      "message_id": "M1",
+      "version": 1,
+      "channel": "广播",
+      "stage": "设备接收",
+      "occurred": "2026-11-01T10:20:00+08:00",
+      "received": "2026-11-01T10:50:00+08:00"
+    },
+    {
+      "id": "R7",
+      "person_id": "P7",
+      "message_id": "M1",
+      "version": 1,
+      "channel": "短信",
+      "stage": "本人确认",
+      "occurred": "2026-11-01T10:20:00+08:00",
+      "received": "2026-11-01T10:50:00+08:00"
+    },
+    {
+      "id": "R9",
+      "person_id": "P9",
+      "message_id": "M1",
+      "version": 1,
+      "channel": "短信",
+      "stage": "设备接收",
+      "occurred": "2026-11-01T10:20:00+08:00",
+      "received": "2026-11-01T10:50:00+08:00"
+    },
+    {
+      "id": "R10",
+      "person_id": "P10",
+      "message_id": "M1",
+      "version": 1,
+      "channel": "广播",
+      "stage": "本人确认",
+      "occurred": "2026-11-01T10:20:00+08:00",
+      "received": "2026-11-01T10:50:00+08:00"
+    },
+    {
+      "id": "R11",
+      "person_id": "P11",
+      "message_id": "M1",
+      "version": 1,
+      "channel": "短信",
+      "stage": "本人确认",
+      "occurred": "2026-11-01T10:20:00+08:00",
+      "received": "2026-11-01T10:50:00+08:00"
+    },
+    {
+      "id": "R13",
+      "person_id": "P13",
+      "message_id": "M1",
+      "version": 1,
+      "channel": "短信",
+      "stage": "本人确认",
+      "occurred": "2026-11-01T10:20:00+08:00",
+      "received": "2026-11-01T10:50:00+08:00"
+    },
+    {
+      "id": "R14",
+      "person_id": "P14",
+      "message_id": "M1",
+      "version": 1,
+      "channel": "广播",
+      "stage": "本人确认",
+      "occurred": "2026-11-01T10:20:00+08:00",
+      "received": "2026-11-01T10:50:00+08:00"
+    },
+    {
+      "id": "R15",
+      "person_id": "P15",
+      "message_id": "M1",
+      "version": 1,
+      "channel": "短信",
+      "stage": "设备接收",
+      "occurred": "2026-11-01T10:20:00+08:00",
+      "received": "2026-11-01T10:50:00+08:00"
+    }
+  ],
+  "broadcast_samples": [
+    {
+      "id": "BS1",
+      "zone": "A",
+      "sample_people": 8,
+      "acknowledged": 5,
+      "inclusion_probability": 0.5,
+      "version": 1,
+      "at": "2026-11-01T10:25:00+08:00"
+    }
+  ],
+  "actions": [
+    {
+      "id": "AC1",
+      "person_id": "P1",
+      "message_id": "M1",
+      "version": 1,
+      "at": "2026-11-01T10:40:00+08:00",
+      "result": "完成"
+    },
+    {
+      "id": "AC3",
+      "person_id": "P3",
+      "message_id": "M1",
+      "version": 1,
+      "at": "2026-11-01T10:40:00+08:00",
+      "result": "条件不允许"
+    },
+    {
+      "id": "AC5",
+      "person_id": "P5",
+      "message_id": "M1",
+      "version": 1,
+      "at": "2026-11-01T10:40:00+08:00",
+      "result": "完成"
+    },
+    {
+      "id": "AC7",
+      "person_id": "P7",
+      "message_id": "M1",
+      "version": 1,
+      "at": "2026-11-01T10:40:00+08:00",
+      "result": "完成"
+    },
+    {
+      "id": "AC9",
+      "person_id": "P9",
+      "message_id": "M1",
+      "version": 1,
+      "at": "2026-11-01T10:40:00+08:00",
+      "result": "条件不允许"
+    },
+    {
+      "id": "AC11",
+      "person_id": "P11",
+      "message_id": "M1",
+      "version": 1,
+      "at": "2026-11-01T10:40:00+08:00",
+      "result": "完成"
+    },
+    {
+      "id": "AC13",
+      "person_id": "P13",
+      "message_id": "M1",
+      "version": 1,
+      "at": "2026-11-01T10:40:00+08:00",
+      "result": "完成"
+    },
+    {
+      "id": "AC15",
+      "person_id": "P15",
+      "message_id": "M1",
+      "version": 1,
+      "at": "2026-11-01T10:40:00+08:00",
+      "result": "条件不允许"
+    }
+  ],
+  "channels": [
+    {
+      "id": "电话",
+      "zones": [
+        "A",
+        "B"
+      ],
+      "languages": [
+        "中文"
+      ],
+      "minutes_per_household": 4,
+      "capacity": 3
+    },
+    {
+      "id": "上门",
+      "zones": [
+        "A"
+      ],
+      "languages": [
+        "中文",
+        "英语"
+      ],
+      "minutes_per_household": 12,
+      "capacity": 2,
+      "assistance": true
+    }
+  ],
+  "missions": [
+    {
+      "id": "MS1",
+      "household": "H2",
+      "channel": "上门",
+      "message_id": "M1",
+      "version": 1,
+      "status": "已出发",
+      "started": "2026-11-01T10:25:00+08:00",
+      "worker": "W1"
+    }
+  ],
+  "changes": [
+    {
+      "id": "C1",
+      "kind": "局部撤销",
+      "message_id": "M1",
+      "version": 1,
+      "zones": [
+        "A"
+      ],
+      "effective": "2026-11-01T10:30:00+08:00"
+    },
+    {
+      "id": "C2",
+      "kind": "家庭关联",
+      "person_id": "P4",
+      "household": "H3",
+      "effective": "2026-10-20",
+      "known_at": "2026-11-01T10:35:00+08:00"
+    }
+  ]
+}

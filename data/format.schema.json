@@ -1,0 +1,495 @@
+{
+  "type": [
+    "object"
+  ],
+  "properties": {
+    "actions": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "at": {
+            "type": [
+              "string"
+            ]
+          },
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "message_id": {
+            "type": [
+              "string"
+            ]
+          },
+          "person_id": {
+            "type": [
+              "string"
+            ]
+          },
+          "result": {
+            "type": [
+              "string"
+            ]
+          },
+          "version": {
+            "type": [
+              "number"
+            ]
+          }
+        },
+        "required": [
+          "at",
+          "id",
+          "message_id",
+          "person_id",
+          "result",
+          "version"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "broadcast_samples": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "acknowledged": {
+            "type": [
+              "number"
+            ]
+          },
+          "at": {
+            "type": [
+              "string"
+            ]
+          },
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "inclusion_probability": {
+            "type": [
+              "number"
+            ]
+          },
+          "sample_people": {
+            "type": [
+              "number"
+            ]
+          },
+          "version": {
+            "type": [
+              "number"
+            ]
+          },
+          "zone": {
+            "type": [
+              "string"
+            ]
+          }
+        },
+        "required": [
+          "acknowledged",
+          "at",
+          "id",
+          "inclusion_probability",
+          "sample_people",
+          "version",
+          "zone"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "changes": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "effective": {
+            "type": [
+              "string"
+            ]
+          },
+          "household": {
+            "type": [
+              "string"
+            ]
+          },
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "kind": {
+            "type": [
+              "string"
+            ]
+          },
+          "known_at": {
+            "type": [
+              "string"
+            ]
+          },
+          "message_id": {
+            "type": [
+              "string"
+            ]
+          },
+          "person_id": {
+            "type": [
+              "string"
+            ]
+          },
+          "version": {
+            "type": [
+              "number"
+            ]
+          },
+          "zones": {
+            "type": [
+              "array"
+            ],
+            "items": {
+              "type": [
+                "string"
+              ]
+            }
+          }
+        },
+        "required": [
+          "effective",
+          "id",
+          "kind"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "channels": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "assistance": {
+            "type": [
+              "boolean"
+            ]
+          },
+          "capacity": {
+            "type": [
+              "number"
+            ]
+          },
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "languages": {
+            "type": [
+              "array"
+            ],
+            "items": {
+              "type": [
+                "string"
+              ]
+            }
+          },
+          "minutes_per_household": {
+            "type": [
+              "number"
+            ]
+          },
+          "zones": {
+            "type": [
+              "array"
+            ],
+            "items": {
+              "type": [
+                "string"
+              ]
+            }
+          }
+        },
+        "required": [
+          "capacity",
+          "id",
+          "languages",
+          "minutes_per_household",
+          "zones"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "messages": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "action": {
+            "type": [
+              "string"
+            ]
+          },
+          "from": {
+            "type": [
+              "string"
+            ]
+          },
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "status": {
+            "type": [
+              "string"
+            ]
+          },
+          "to": {
+            "type": [
+              "string"
+            ]
+          },
+          "version": {
+            "type": [
+              "number"
+            ]
+          },
+          "zones": {
+            "type": [
+              "array"
+            ],
+            "items": {
+              "type": [
+                "string"
+              ]
+            }
+          }
+        },
+        "required": [
+          "action",
+          "from",
+          "id",
+          "status",
+          "to",
+          "version",
+          "zones"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "missions": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "channel": {
+            "type": [
+              "string"
+            ]
+          },
+          "household": {
+            "type": [
+              "string"
+            ]
+          },
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "message_id": {
+            "type": [
+              "string"
+            ]
+          },
+          "started": {
+            "type": [
+              "string"
+            ]
+          },
+          "status": {
+            "type": [
+              "string"
+            ]
+          },
+          "version": {
+            "type": [
+              "number"
+            ]
+          },
+          "worker": {
+            "type": [
+              "string"
+            ]
+          }
+        },
+        "required": [
+          "channel",
+          "household",
+          "id",
+          "message_id",
+          "started",
+          "status",
+          "version",
+          "worker"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "population": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "household": {
+            "type": [
+              "string"
+            ]
+          },
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "language": {
+            "type": [
+              "string"
+            ]
+          },
+          "needs_assistance": {
+            "type": [
+              "boolean"
+            ]
+          },
+          "valid_from": {
+            "type": [
+              "string"
+            ]
+          },
+          "zone": {
+            "type": [
+              "string"
+            ]
+          }
+        },
+        "required": [
+          "household",
+          "id",
+          "language",
+          "needs_assistance",
+          "valid_from",
+          "zone"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "receipts": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "channel": {
+            "type": [
+              "string"
+            ]
+          },
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "message_id": {
+            "type": [
+              "string"
+            ]
+          },
+          "occurred": {
+            "type": [
+              "string"
+            ]
+          },
+          "person_id": {
+            "type": [
+              "string"
+            ]
+          },
+          "received": {
+            "type": [
+              "string"
+            ]
+          },
+          "stage": {
+            "type": [
+              "string"
+            ]
+          },
+          "version": {
+            "type": [
+              "number"
+            ]
+          }
+        },
+        "required": [
+          "channel",
+          "id",
+          "message_id",
+          "occurred",
+          "person_id",
+          "received",
+          "stage",
+          "version"
+        ],
+        "additionalProperties": true
+      }
+    }
+  },
+  "required": [
+    "actions",
+    "broadcast_samples",
+    "changes",
+    "channels",
+    "messages",
+    "missions",
+    "population",
+    "receipts"
+  ],
+  "additionalProperties": true,
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "早期预警触达的覆盖证据与补达选择合成资料格式"
+}
